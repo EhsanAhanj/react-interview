@@ -43,6 +43,7 @@ export const ZebraCat: React.FC = () => {
 					title={`${config.text.middle_text[1].product_id}`}
 					subtitle={`${config.text.middle_text[1].quantity}`}
 					color={config.color[2]}
+					animationType="Slider"
 				/>
 			</Sequence>
 			<Sequence from={390} durationInFrames={90}>
