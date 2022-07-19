@@ -7,8 +7,9 @@
 		"strict": true,
 		"noEmit": true,
 		"lib": ["es2015"],
-		"esModuleInterop": true,
 		"skipLibCheck": true,
-		"forceConsistentCasingInFileNames": true
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true
 	}
 }
